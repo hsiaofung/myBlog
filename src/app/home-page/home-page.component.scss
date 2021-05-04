@@ -1,0 +1,39 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  .content {
+    text-align: center;
+    font-family: "Open Sans";
+    .breadcrumb {
+      font-size: 12px;
+    }
+    .post-title {
+      margin: 6px 0px;
+      font-size: 24px;
+      font-family: "Montserrat";
+    }
+    .post-author-date {
+      margin-bottom: 26px;
+      font-size: 13px;
+    }
+    .post-image {
+      margin-bottom: 26px;
+    }
+    .article {
+      text-align: left;
+      line-height: 1.8;
+      p {
+        margin-top: 0px;
+        margin-bottom: 17px;
+        font-size: 13px;
+      }
+      h2 {
+        line-height: 1.3;
+        margin-top: 0px;
+        margin-bottom: 17px;
+        font-size: 22px;
+        font-family: "Montserrat";
+      }
+    }
+  }
+}
