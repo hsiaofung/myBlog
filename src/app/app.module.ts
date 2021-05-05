@@ -7,18 +7,17 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
     PostComponent,
     CatalogComponent,
     PostListComponent,
-    HomePageComponent
+    HomePageComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,11 +1,11 @@
 <div class="container">
   <div class="content">
     <div class="breadcrumb">麵包屑</div>
-    <h1 class="post-title">{{ postData.title }}</h1>
+    <h1 class="post-title">{{ postData?.title }}</h1>
     <div class="post-author-date">
-      written by {{ postData.author }} | {{ postData.date }}
+      written by {{ postData?.author }} | {{ postData?.date }}
     </div>
-    <img class="post-image" src="assets/{{ postData.image }}" alt="" />
+    <img class="post-image" src="assets/{{ postData?.image }}" alt="" />
     <div id="article"></div>
   </div>
 </div>
